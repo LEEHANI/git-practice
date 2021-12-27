@@ -36,3 +36,9 @@ git config --local user.email "your@email.com"
 - git push [remote-name] [branch]
 - `git push origin master`
 - 강제로 덮어써야할 경우 `git push --force origin master`
+
+# branch 
+## git branch [branch-name]
+- `git branch test1` 
+- `git branch`. local repositroy branch 목록 및 현재 브랜치 확인 
+- `git branch -r`. 원격 저장소 브랜치 확인 
