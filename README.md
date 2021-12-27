@@ -42,3 +42,22 @@ git config --local user.email "your@email.com"
 - `git branch test1` 
 - `git branch`. local repositroy branch 목록 및 현재 브랜치 확인 
 - `git branch -r`. 원격 저장소 브랜치 확인 
+
+# merge
+## fast-forward merge 
+- ![merge-bugfix-branch-ff](./images/merge-bugfix-branch-ff.png)
+- ![merge-fast-forward](./images/merge-fast-forward.png)
+- 동일 내용이 포함되는 브랜치의 경우 브랜치만 이동해서 병합. merge 커밋 메시지가 생성되지 않음. (변경 이력이 남지 않음)
+- ![merge-fast-forward-practice](./images/merge-fast-forward-practice.png)
+- `git merge branch1`
+
+## merge commit 
+- ![merge-bugfix-branch](./images/merge-bugfix-branch.png)
+- ![merge-commit](./images/merge-commit.png)
+- `git merger --no-ff`. fast-forward 안함 
+- 변경 이력이 남으므로 추적에 용이하지만 이력이 복잡해짐 
+
+
+
+# 참고 
+- https://backlog.com/git-tutorial/kr/
