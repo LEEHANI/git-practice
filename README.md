@@ -33,7 +33,7 @@ git config --local user.email "your@email.com"
 - `git checkout -b develop`. 브랜치 생성과 체크아웃을 동시에 
 
 # push 
-- git push [remote-name] [branch]
+## git push [remote-name] [branch]
 - `git push origin master`
 - 강제로 덮어써야할 경우 `git push --force origin master`
 
@@ -45,18 +45,25 @@ git config --local user.email "your@email.com"
 
 # merge
 ## fast-forward merge 
-- ![merge-bugfix-branch-ff](./images/merge-bugfix-branch-ff.png)
-- ![merge-fast-forward](./images/merge-fast-forward.png)
-- 동일 내용이 포함되는 브랜치의 경우 브랜치만 이동해서 병합. merge 커밋 메시지가 생성되지 않음. (변경 이력이 남지 않음)
-- ![merge-fast-forward-practice](./images/merge-fast-forward-practice.png)
+![merge-bugfix-branch-ff](./images/merge-bugfix-branch-ff.png)
+![merge-fast-forward](./images/merge-fast-forward.png)
+- ₩동일 내용이 포함되는 브랜치의 경우 브랜치만 이동해서 병합. merge 커밋 메시지가 생성되지 않음. (변경 이력이 남지 않음)₩
+![merge-fast-forward-practice](./images/merge-fast-forward-practice.png)
 - `git merge branch1`
 
 ## merge commit 
-- ![merge-bugfix-branch](./images/merge-bugfix-branch.png)
-- ![merge-commit](./images/merge-commit.png)
+![merge-bugfix-branch](./images/merge-bugfix-branch.png)
+![merge-commit](./images/merge-commit.png)
 - `git merger --no-ff`. fast-forward 안함 
 - 변경 이력이 남으므로 추적에 용이하지만 이력이 복잡해짐 
 
+# stash 
+## git stash 
+- 현재 작업을 임시로 저장 
+## git stash list 
+- 임시로 저장해둔 작업 목록 확인 
+## git stash pop 
+- 최신 작업 목록 복원 
 
 
 # 참고 
