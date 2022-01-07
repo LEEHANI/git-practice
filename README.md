@@ -65,6 +65,8 @@ git config --local user.email "your@email.com"
 ## git stash pop 
 - 최신 작업 목록 복원 
 
+## cherry pick 
+
 
 # 참고 
 - https://backlog.com/git-tutorial/kr/
