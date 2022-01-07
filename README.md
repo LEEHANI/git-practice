@@ -47,7 +47,7 @@ git config --local user.email "your@email.com"
 ## fast-forward merge 
 ![merge-bugfix-branch-ff](./images/merge-bugfix-branch-ff.png)
 ![merge-fast-forward](./images/merge-fast-forward.png)
-- 동일 내용이 포함되는 브랜치의 경우 브랜치만 이동해서 병합. merge 커밋 메시지가 생성되지 않음. (변경 이력이 남지 않음)₩
+- 동일 내용이 포함되는 브랜치의 경우 브랜치만 이동해서 병합. merge 커밋 메시지가 생성되지 않음. (변경 이력이 남지 않음)
 ![merge-fast-forward-practice](./images/merge-fast-forward-practice.png)
 - `git merge branch1`
 
