@@ -54,7 +54,7 @@ git config --local user.email "your@email.com"
 ## merge commit 
 ![merge-bugfix-branch](./images/merge-bugfix-branch.png)
 ![merge-commit](./images/merge-commit.png)
-- `git merger --no-ff`. fast-forward 안함 
+- `git merge --no-ff`. fast-forward 안함 
 - 변경 이력이 남으므로 추적에 용이하지만 이력이 복잡해짐 
 
 # stash 
@@ -65,7 +65,11 @@ git config --local user.email "your@email.com"
 ## git stash pop 
 - 최신 작업 목록 복원 
 
-## cherry pick 
+# cherry pick 
+![cherry-pick](./images/cherry-pick.png)
+- 다른 브랜치에 있는 커밋을 내 브랜치에 적용시킬 때 사용하는 명령어 
+- git cherry-pick [commit-hash]
+- `git cherry-pick 3dfca1` 
 
 
 # 참고 
