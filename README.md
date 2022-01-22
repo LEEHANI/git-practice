@@ -20,6 +20,10 @@ git config --local user.email "your@email.com"
 - 보통은 나의 repository를 origin으로 놓고 사용함. 
 - `git remote` or `git remote -v`로 연결 상태 확인 가능
 
+## git remote remove origin
+- 원격 저장소 삭제
+
+
 # clone
 ## git clone [remote-repository-address] 
 - `git clone [remote-repository-address]`
