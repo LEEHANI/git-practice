@@ -14,13 +14,13 @@ git config --local user.email "your@email.com"
 
 # remote 
 ### git remote add [remote-name] [remote-repository-address]
-- 로컬 저장소와 원격 저장소 연동 명령어 `
+- 로컬 저장소와 원격 저장소 연동 명령어
 - ![remote](./images/remote.png)
 - `git remote add origin https://github.com/LEEHANI/git-practice.git`
 - 보통은 나의 repository를 origin으로 놓고 사용함. 
 - `git remote` or `git remote -v`로 연결 상태 확인 가능
 
-### git remote remove origin
+### git remote remove [remote-name]
 - 원격 저장소 삭제
 
 
