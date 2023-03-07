@@ -70,6 +70,9 @@ git config --local user.email "your@email.com"
 # stash 
 ### git stash 
 - 현재 작업을 임시로 저장 
+- 변경한 파일이 있는데 stash가 안될때가 있다. `No local changes to save`
+  새로 만든 파일만 있을 경우 인데, 그럴 때는 `git stash --include-intracked`
+
 ### git stash list 
 - 임시로 저장해둔 작업 목록 확인 
 ### git stash pop 
