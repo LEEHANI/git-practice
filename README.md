@@ -23,6 +23,8 @@ git config --local user.email "your@email.com"
 ### git remote remove [remote-name]
 - 원격 저장소 삭제
 
+### git remote update 
+- 원격 저장소 브랜치 갱신
 
 # clone
 ### git clone [remote-repository-address] 
